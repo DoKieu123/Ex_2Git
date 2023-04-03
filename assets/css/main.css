@@ -14,13 +14,24 @@ ul{
     background-color: aquamarine;
     text-align: center;
     line-height: 100px;
+    transition: all 0.3s;
+    color: white;
 }
 .box-red{
     background-color: brown;
 }
+.box-red:hover{
+    background-color: green;
+}
 .box-green{
     background-color: green;
 }
+.box-green:hover{
+    background-color: rgb(102, 72, 192);
+}
 .box-black{
-    background-color: black;
+    background-color: rgb(102, 72, 192);
+}
+.box-black:hover{
+    background-color: brown;
 }
